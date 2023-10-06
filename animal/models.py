@@ -9,7 +9,7 @@ class Animal(models.Model):
     
 class Protectora(models.Model):
     nombre=models.CharField(max_length=100)
-    descripcion=models.TextField
+    descripcion=models.TextField()
     fecha_creacion=models.DateField(blank=True, null=True)
 
 class Colaborador(models.Model):

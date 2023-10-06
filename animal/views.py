@@ -13,4 +13,4 @@ def colaborador_list(request):
 
 def protectora_list(request):
     protectoras = Protectora.objects.all()
-    return render(request,'<animal/protectora.html',{'protectora_mostrar':protectoras})
+    return render(request,'animal/protectora.html',{'protectora_mostrar':protectoras})

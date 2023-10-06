@@ -4,13 +4,13 @@
     </head>
     <body>
         <header>
-            <h1><a href="/">Django Girls Blog </a></h1>
+            <h1><a href="/">Animales: </a></h1>
         </header>
         {%for animales in animal_mostrar %}
         <article>
-            <p>Animal</p>
-            <p>tipo: {{animales.tipo}}
-            <p>nombre: {{animales.nombre}}
+            <p>tipo: {{animales.tipo}}</p>
+            <p>nombre: {{animales.nombre}}</p>
+            <p>cuidador: {{animales.cuidador}}</p>
         </article>
         {%endfor%}
     </body>
