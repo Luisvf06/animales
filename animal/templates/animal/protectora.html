@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Mi Blog</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">Django Girls Blog </a></h1>
+        </header>
+        {%for animal in animal_mostrar %}
+        <article>
+            <p>Animal</p>
+            <p>cuidador: {{Protectora.nombre}}
+            <p>nombre: {{Protectora.descripcion}}
+        </article>
+        {%endfor%}
+    </body>
+</html>

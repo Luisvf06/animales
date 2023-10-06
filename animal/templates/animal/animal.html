@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Animal</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">Django Girls Blog </a></h1>
+        </header>
+        {%for animales in animal_mostrar %}
+        <article>
+            <p>Animal</p>
+            <p>tipo: {{animales.tipo}}
+            <p>nombre: {{animales.nombre}}
+        </article>
+        {%endfor%}
+    </body>
+</html>
